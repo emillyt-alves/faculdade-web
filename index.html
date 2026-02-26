@@ -1,39 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Desafio das Cores</title>
-  <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grão Mogol - MG: O Coração do Norte de Minas</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container">
-    <h1>🎯 Desafio das Cores</h1>
+    <header>
+        <img src="imagens/graomogol2.jpeg">
+        <h1>Grão Mogol - MG</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">Nossa História</a></li>
+                <li><a href="natureza.html">Natureza e Aventura</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <label for="playerName">Seu nome:</label>
-    <input type="text" id="playerName" placeholder="Digite seu nome" />
-    <button id="startButton">Jogar</button>
+    <main class="container">
+        <section class="hero">
+            <h2>Bem-vindo à Grão Mogol: O Encanto do Norte de Minas!</h2>
+            <p>Descubra a riqueza histórica, a beleza natural exuberante e a cultura acolhedora de Grão Mogol, uma joia encravada no coração do Norte de Minas Gerais.</p>
+            <img src="imagens/igrejans.jpg" alt=" Igreja de Nossa Senhora do Rosário" class="main-image">
+        </section>
 
-    <div id="gameInfo" class="hidden">
-      <p>Cor a ser clicada: <span id="targetColor"></span></p>
-      <p>Pontuação: <span id="score">0</span></p>
-      <p>Tempo restante: <span id="timer">60</span>s</p>
-    </div>
+        <section class="highlights">
+            <h3>O que Grão Mogol oferece?</h3>
+            <div class="highlight-items">
+                <div class="item">
+                    <h4>Rica História</h4>
+                    <img src="imagens/igrejamatriz.jpg" alt="Igreja Matriz de Santo Antônio">
+                    <img src="imagens/igrejamatriz2.jpg" alt="Igreja Matriz de Santo Antônio">
+                    <p>Ruas de pedra e casarões coloniais contam séculos de história.</p>
+                </div>
+                <div class="item">
+                    <h4>Natureza Exuberante</h4>
+                    <img src="imagens/cachoeiramirante.jpg" alt="Paisagem Natural de Grão Mogol">
+                    <img src="imagens/5625245.jpg" alt="Paisagem Natural de Grão Mogol">
+                    <p>Cachoeiras, serras e trilhas esperam por você.</p>
+                </div>
+                <div class="item">
+                    <h4>Cultura Viva</h4>
+                    <img src="imagens/carnaval.webp" alt="Manifestação Cultural de Grão Mogol">
+                    <img src="imagens/pres].webp" alt="Manifestação Cultural de Grão Mogol">
+                    <p>Festas tradicionais, o famoso Presépio de Grão Mogol e o artesanato típico encantam visitantes.</p>
+                </div>
+            </div>
+        </section>
 
-    <div id="grid" class="grid hidden"></div>
+        <section class="video-section">
+            <h3>Explore Grão Mogol em Vídeo!</h3>
+            <iframe width="700" height="400" 
+                src="https://www.youtube.com/embed/XAdf38XzyH8" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
 
-    <div id="gameOver" class="hidden">
-      <h2>🏁 Fim de Jogo!</h2>
-      <p id="finalScore"></p>
-      <button id="playAgainButton">Jogar Novamente</button>
-    </div>
+            <p>Assista a um vídeo que mostra um pouco das belezas e do dia a dia da cidade.</p>
+        </section>
+    </main>
 
-    <div id="ranking">
-      <h2>🏆 Ranking</h2>
-      <ol id="rankingList"></ol>
-    </div>
-  </main>
-
-  <script src="js/script.js"></script>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Grão Mogol Turismo. Todos os direitos reservados.</p>
+            <p>Contato: (38) 9XXXX-XXXX | turismo@graomogol.mg.gov.br (Fictício)</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/prefeituramunicipaldegraomogoloficial/?locale=pt_BR" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/prefeituramunicipaldegraomogol/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
