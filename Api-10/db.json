@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Mochila Casual Fit",
+      "price": 109.95,
+      "description": "Sua mochila perfeita...",
+      "category": "Roupas Masculinas",
+      "image": "imagens/mochila.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Camiseta Premium Slim Fit",
+      "price": 22.3,
+      "description": "Caimento slim, estilo casual...",
+      "category": "Roupas Masculinas",
+      "image": "imagens/camiseta.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Jaqueta de Algodão Masculina",
+      "price": 55.99,
+      "description": "Ótima jaqueta para a primavera...",
+      "category": "Roupas Masculinas",
+      "image": "imagens/jaqueta.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Calça Jeans Masculina Skinny",
+      "price": 129.90,
+      "description": "Modelagem skinny que se ajusta ao corpo, ideal para um visual moderno. Tecido com elastano para maior conforto.",
+      "category": "Roupas Masculinas",
+      "image": "imagens/calca.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Tênis Esportivo Performance",
+      "price": 199.99,
+      "description": "Perfeito para corridas e treinos, com tecnologia de amortecimento e solado de alta aderência.",
+      "category": "Calçados",
+      "image": "imagens/tenis.jpg"
+    }
+  ]
+}
