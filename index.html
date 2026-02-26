@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio das Cores</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🎯 Desafio das Cores</h1>
+
+    <label for="playerName">Seu nome:</label>
+    <input type="text" id="playerName" placeholder="Digite seu nome" />
+    <button id="startButton">Jogar</button>
+
+    <div id="gameInfo" class="hidden">
+      <p>Cor a ser clicada: <span id="targetColor"></span></p>
+      <p>Pontuação: <span id="score">0</span></p>
+      <p>Tempo restante: <span id="timer">60</span>s</p>
+    </div>
+
+    <div id="grid" class="grid hidden"></div>
+
+    <div id="gameOver" class="hidden">
+      <h2>🏁 Fim de Jogo!</h2>
+      <p id="finalScore"></p>
+      <button id="playAgainButton">Jogar Novamente</button>
+    </div>
+
+    <div id="ranking">
+      <h2>🏆 Ranking</h2>
+      <ol id="rankingList"></ol>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
